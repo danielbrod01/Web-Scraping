@@ -1,5 +1,5 @@
 # Web-Scraping
-Explored Web Scraping with Python 3 and Beautiful Soup to parse through html code on newegg.com to return a .csv file that contains helpful product information on graphics cards for consumers.
+Explored Web Scraping with Python 3 and Beautiful Soup to parse through html code on newegg.com to return a .csv file that contains helpful product information on graphics cards for consumers, such as Brand name, Product name, Pricing, and if there is a Shipping Price.
 
 <img src="images/Screenshot%202019-10-14%2003.14.25.png">
 
