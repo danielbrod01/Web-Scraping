@@ -1,12 +1,13 @@
-from urllib.request import urlopen as uReq
+from urllib.request import urlopen
 from bs4 import BeautifulSoup as soup
 
+# Store url of target page into my_url
 my_url = 'https://www.newegg.com/Video-Cards-Video-Devices/Category/ID-38?Tpk=graphics%20card'
 
 # Opening up connecting, grabbing the page
-uClient = uReq(my_url)
-page_html = uClient.read()
-uClient.close() # Closes
+url_client = urlopen(my_url)
+page_html = url_client.read()
+url_client.close() # Closes
 
 # html parsing
 page_soup = soup(page_html, "html.parser")
